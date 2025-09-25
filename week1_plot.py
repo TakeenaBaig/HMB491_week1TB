@@ -1,7 +1,16 @@
+<<<<<<< HEAD
 import pandas as pd
 import matplotlib.pyplot as plt
 
 # TODO: load the dataset as pandas dataframe
+=======
+
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Load the dataset as pandas dataframe
+df_teeth = pd.read_csv("mammal_teeth.csv")
+>>>>>>> 29aefda (Completed Week 1 assignment)
 
 plt.figure(figsize=(5, 10)) # set figure size
 plt.scatter(x=df_teeth['Top incisors'],
